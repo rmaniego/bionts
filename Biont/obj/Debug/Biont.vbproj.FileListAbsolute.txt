@@ -8,3 +8,14 @@
 \\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\obj\Debug\Biont.exe
 \\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\obj\Debug\Biont.xml
 \\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\obj\Debug\Biont.pdb
+C:\drive\repo\bionts\Biont\bin\Debug\Biont.exe
+C:\drive\repo\bionts\Biont\bin\Debug\Biont.pdb
+C:\drive\repo\bionts\Biont\bin\Debug\Biont.xml
+C:\drive\repo\bionts\Biont\obj\Debug\Biont.vbproj.AssemblyReference.cache
+C:\drive\repo\bionts\Biont\obj\Debug\Biont.Form1.resources
+C:\drive\repo\bionts\Biont\obj\Debug\Biont.Resources.resources
+C:\drive\repo\bionts\Biont\obj\Debug\Biont.vbproj.GenerateResource.cache
+C:\drive\repo\bionts\Biont\obj\Debug\Biont.vbproj.CoreCompileInputs.cache
+C:\drive\repo\bionts\Biont\obj\Debug\Biont.exe
+C:\drive\repo\bionts\Biont\obj\Debug\Biont.xml
+C:\drive\repo\bionts\Biont\obj\Debug\Biont.pdb

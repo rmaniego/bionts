@@ -459,6 +459,7 @@ Partial Class Form1
         Me.tuttxt.TabIndex = 28
         Me.tuttxt.Text = "Hey! Let's learn some " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "basics here."
         Me.tuttxt.Visible = False
+        Me.tuttxt.BringToFront()
         '
         'tutexit
         '

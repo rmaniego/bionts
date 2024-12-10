@@ -351,6 +351,7 @@
         If ctrtut <= 1 Then
             tutend.Visible = True
             tuttxt.Text = "Hey! Let's learn some" & vbNewLine & "basics here."
+            tuttxt.BringToFront()
             tutexit.Visible = True
             tutprev.Visible = False
             pnt1.Visible = False
@@ -362,6 +363,7 @@
         ElseIf ctrtut = 2 Then
             tutend.Visible = True
             tuttxt.Text = "Click end to terminate" & vbNewLine & "tutorial."
+            tuttxt.BringToFront()
             tutexit.Visible = True
             tutprev.Visible = True
             pnt1.Visible = True
@@ -373,6 +375,7 @@
         ElseIf ctrtut = 3 Then
             tutend.Visible = True
             tuttxt.Text = "This is you. A tiny yet hungry" & vbNewLine & "cell."
+            tuttxt.BringToFront()
             tutexit.Visible = True
             tutprev.Visible = True
             pnt1.Visible = False
@@ -389,6 +392,7 @@
         ElseIf ctrtut = 4 Then
             tutend.Visible = True
             tuttxt.Text = "There are nutrients needed" & vbNewLine & "for growth."
+            tuttxt.BringToFront()
             tutexit.Visible = True
             tutprev.Visible = True
             pnt1.Visible = False
@@ -400,6 +404,7 @@
         ElseIf ctrtut = 5 Then
             tutend.Visible = True
             tuttxt.Text = "This is a basic food" & vbNewLine & "pellet."
+            tuttxt.BringToFront()
             tutexit.Visible = True
             tutprev.Visible = True
             pnt1.Visible = False
@@ -416,6 +421,7 @@
         ElseIf ctrtut = 6 Then
             tutend.Visible = True
             tuttxt.Text = "Another is air to" & vbNewLine & "breath."
+            tuttxt.BringToFront()
             tutexit.Visible = True
             tutprev.Visible = True
             pnt1.Visible = False
@@ -432,6 +438,7 @@
         ElseIf ctrtut = 7 Then
             tutend.Visible = True
             tuttxt.Text = "This is another food" & vbNewLine & "pellet."
+            tuttxt.BringToFront()
             tutexit.Visible = True
             tutprev.Visible = True
             pnt1.Visible = False
@@ -448,6 +455,7 @@
         ElseIf ctrtut = 8 Then
             tutend.Visible = True
             tuttxt.Text = "While this is sunlight" & vbNewLine & "particle."
+            tuttxt.BringToFront()
             tutexit.Visible = True
             tutprev.Visible = True
             pnt1.Visible = False
@@ -464,6 +472,7 @@
         ElseIf ctrtut = 9 Then
             tutend.Visible = True
             tuttxt.Text = "Are you are ready" & vbNewLine & "to play?"
+            tuttxt.BringToFront()
             tutexit.Visible = True
             tutprev.Visible = True
             pnt1.Visible = False
