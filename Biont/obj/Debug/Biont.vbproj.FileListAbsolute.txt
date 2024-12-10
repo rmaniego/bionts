@@ -1,0 +1,13 @@
+\\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\bin\Debug\Biont.exe
+\\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\bin\Debug\Biont.pdb
+\\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\bin\Debug\Biont.xml
+\\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\obj\Debug\ResolveAssemblyReference.cache
+\\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\obj\Debug\Biont.Form1.resources
+\\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\obj\Debug\Biont.Resources.resources
+\\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\obj\Debug\Biont.vbproj.GenerateResource.Cache
+\\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\obj\Debug\Biont.exe
+\\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\obj\Debug\Biont.xml
+\\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\obj\Debug\Biont.pdb
+\\fileserver.sti.lan\files\Students\BSIT\Maniego, Rodney Jr\Second Year\Others\Biont\Biont\obj\Debug\Biont.exe
+\\fileserver.sti.lan\files\Students\BSIT\Maniego, Rodney Jr\Second Year\Others\Biont\Biont\obj\Debug\Biont.xml
+\\fileserver.sti.lan\files\Students\BSIT\Maniego, Rodney Jr\Second Year\Others\Biont\Biont\obj\Debug\Biont.pdb
