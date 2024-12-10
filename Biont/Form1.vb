@@ -272,33 +272,6 @@
             ct1 = 1
             ct2 = 0
         End If
-        If ct3 = 1 And ct4 = 0 Then
-            playgo.Left -= 5
-            ct3 = 0
-            ct4 = 1
-        ElseIf ct3 = 0 And ct4 = 1 Then
-            playgo.Left += 5
-            ct3 = 1
-            ct4 = 0
-        End If
-        If ct6 = 1 And ct7 = 0 Then
-            tutprev.Left -= 5
-            ct6 = 0
-            ct7 = 1
-        ElseIf ct6 = 0 And ct7 = 1 Then
-            tutprev.Left += 5
-            ct6 = 1
-            ct7 = 0
-        End If
-        If ct8 = 1 And ct9 = 0 Then
-            tutnxt.Left -= 5
-            ct8 = 0
-            ct9 = 1
-        ElseIf ct8 = 0 And ct9 = 1 Then
-            tutnxt.Left += 5
-            ct8 = 1
-            ct9 = 0
-        End If
     End Sub
 
     Private Sub tymbrush_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tymbrush.Tick
@@ -383,12 +356,9 @@
             pnt1.Visible = False
             pnt2.Visible = False
             pnt3.Visible = False
+            pnt4.Visible = False
+            pnt5.Visible = False
             pnt6.Visible = False
-            eat111.Visible = False
-            eat211.Visible = False
-            eat311.Visible = False
-            eat411.Visible = False
-            player.Visible = False
         ElseIf ctrtut = 2 Then
             tutend.Visible = True
             tuttxt.Text = "Click end to terminate" & vbNewLine & "tutorial."
@@ -397,13 +367,9 @@
             pnt1.Visible = True
             pnt2.Visible = False
             pnt3.Visible = False
+            pnt4.Visible = False
+            pnt5.Visible = False
             pnt6.Visible = False
-            player.Visible = False
-            eat111.Visible = False
-            eat211.Visible = False
-            eat311.Visible = False
-            eat411.Visible = False
-            player.Visible = True
         ElseIf ctrtut = 3 Then
             tutend.Visible = True
             tuttxt.Text = "This is you. A tiny yet hungry" & vbNewLine & "cell."
@@ -412,8 +378,9 @@
             pnt1.Visible = False
             pnt2.Visible = True
             pnt3.Visible = False
+            pnt4.Visible = False
+            pnt5.Visible = False
             pnt6.Visible = False
-            eat111.Visible = False
             eat111.Visible = False
             eat211.Visible = False
             eat311.Visible = False
@@ -427,12 +394,9 @@
             pnt1.Visible = False
             pnt2.Visible = False
             pnt3.Visible = False
+            pnt4.Visible = False
+            pnt5.Visible = False
             pnt6.Visible = False
-            eat111.Visible = False
-            eat211.Visible = False
-            eat311.Visible = False
-            eat411.Visible = False
-            player.Visible = True
         ElseIf ctrtut = 5 Then
             tutend.Visible = True
             tuttxt.Text = "This is a basic food" & vbNewLine & "pellet."
@@ -441,22 +405,15 @@
             pnt1.Visible = False
             pnt2.Visible = False
             pnt3.Visible = True
+            pnt4.Visible = False
+            pnt5.Visible = False
             pnt6.Visible = False
             eat111.Visible = True
             eat211.Visible = False
             eat311.Visible = False
             eat411.Visible = False
-            player.Visible = True
+            player.Visible = False
         ElseIf ctrtut = 6 Then
-            tutend.Visible = True
-            tuttxt.Text = "Are you are ready" & vbNewLine & "to play?"
-            tutexit.Visible = True
-            tutprev.Visible = True
-            pnt1.Visible = False
-            pnt2.Visible = False
-            pnt3.Visible = False
-            pnt6.Visible = False
-        ElseIf ctrtut = 7 And ctrStage = 1 And ctrLvl = 2 Then
             tutend.Visible = True
             tuttxt.Text = "Another is air to" & vbNewLine & "breath."
             tutexit.Visible = True
@@ -464,13 +421,15 @@
             pnt1.Visible = False
             pnt2.Visible = False
             pnt3.Visible = False
+            pnt4.Visible = True
+            pnt5.Visible = False
             pnt6.Visible = False
             eat111.Visible = False
             eat211.Visible = True
             eat311.Visible = False
             eat411.Visible = False
             player.Visible = False
-        ElseIf ctrtut = 8 And ctrStage = 1 And ctrLvl = 3 Then
+        ElseIf ctrtut = 7 Then
             tutend.Visible = True
             tuttxt.Text = "This is another food" & vbNewLine & "pellet."
             tutexit.Visible = True
@@ -478,13 +437,15 @@
             pnt1.Visible = False
             pnt2.Visible = False
             pnt3.Visible = False
+            pnt4.Visible = False
+            pnt5.Visible = True
             pnt6.Visible = False
             eat111.Visible = False
             eat211.Visible = False
             eat311.Visible = True
             eat411.Visible = False
             player.Visible = False
-        ElseIf ctrtut = 9 And ctrStage = 1 And ctrLvl = 1 Then
+        ElseIf ctrtut = 8 Then
             tutend.Visible = True
             tuttxt.Text = "While this is sunlight" & vbNewLine & "particle."
             tutexit.Visible = True
@@ -492,12 +453,25 @@
             pnt1.Visible = False
             pnt2.Visible = False
             pnt3.Visible = False
+            pnt4.Visible = False
+            pnt5.Visible = False
             pnt6.Visible = True
             eat111.Visible = False
             eat211.Visible = False
             eat311.Visible = False
             eat411.Visible = True
             player.Visible = False
+        ElseIf ctrtut = 9 Then
+            tutend.Visible = True
+            tuttxt.Text = "Are you are ready" & vbNewLine & "to play?"
+            tutexit.Visible = True
+            tutprev.Visible = True
+            pnt1.Visible = False
+            pnt2.Visible = False
+            pnt3.Visible = False
+            pnt4.Visible = False
+            pnt5.Visible = False
+            pnt6.Visible = False
         End If
     End Sub
 
@@ -510,23 +484,24 @@
     End Sub
 
     Private Sub tutnxt_MouseHover(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tutnxt.MouseHover
-        tymki.Enabled = True
+        tutnxt.Left += 5
     End Sub
 
     Private Sub tutprev_MouseHover(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tutprev.MouseHover
-        tymki.Enabled = True
+        tutnxt.Left -= 5
     End Sub
     Private Sub tutnxt_MouseLeave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tutnxt.MouseLeave
-        tymki.Enabled = False
+        tutnxt.Left -= 5
     End Sub
 
     Private Sub tutprev_MouseLeave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles tutprev.MouseLeave
-        tymki.Enabled = False
+        tutnxt.Left += 5
     End Sub
     Private Sub playgo_MouseHover(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles playgo.MouseHover
-        tymki.Enabled = True
+        playgo.Left -= 5
     End Sub
     Private Sub playgo_MouseLeave(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles playgo.MouseLeave
-        tymki.Enabled = False
+        playgo.Left -= 5
     End Sub
+
 End Class

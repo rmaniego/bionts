@@ -8,6 +8,3 @@
 \\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\obj\Debug\Biont.exe
 \\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\obj\Debug\Biont.xml
 \\fileserver.sti.lan\files\students\BSIT\Maniego, Rodney Jr\Second Year\Mid Term\Others\Biont\Biont\obj\Debug\Biont.pdb
-\\fileserver.sti.lan\files\Students\BSIT\Maniego, Rodney Jr\Second Year\Others\Biont\Biont\obj\Debug\Biont.exe
-\\fileserver.sti.lan\files\Students\BSIT\Maniego, Rodney Jr\Second Year\Others\Biont\Biont\obj\Debug\Biont.xml
-\\fileserver.sti.lan\files\Students\BSIT\Maniego, Rodney Jr\Second Year\Others\Biont\Biont\obj\Debug\Biont.pdb
